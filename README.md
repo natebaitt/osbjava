@@ -1,10 +1,7 @@
-<p align="center">
-<img src="media/osbjava_logo_color2.png" alt="osbjava logo" width="500">
-</p>
-
-<p style="text-align: center; font-size: 30px;">
-<b>osbjava – an osu! storyboarding library</b>
-</p>
+<div align="center">
+  <img src="/media/osbjava_logo_color2.png" alt="osbjava logo" width="500">
+  <h1>osbjava – an osu! storyboarding library</h1>
+</div>
 
 
 ## Overview
