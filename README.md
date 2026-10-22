@@ -7,7 +7,7 @@
 ## Overview
 *osbjava* is a Java library for programmatically creating and exporting osu! storyboards.
 
-I originally developed this library in 2024 as a way to overcome limitations of the current storyboarding syntax. Storyboard sprites operate on a “<ins>start-to-end</ins>” system, which makes it difficult to create more complex visuals such as particle generation and beat flashes. *osbjava* aims to solve this by introducing **dynamic sprites** that instead operate on a “<ins>rate-based</ins>” system, which keeps track of sprite parameters and velocities over time.
+I originally developed this library in 2024 as a way to overcome limitations of the current storyboarding syntax. Storyboard sprites operate on a “start-to-end</ins>” system, which makes it difficult to create complex visuals such as particle generation and beat flashing. *osbjava* aims to solve this by introducing **dynamic sprites** that instead operate on a “rate-based” system, which **keeps track of sprite parameters and velocities over time**.
 
 Moreover, I developed this library as a personal alternative to music video making, as I did not have access to sophisticated video software such as Adobe After Effects or Blender. *osbjava* has since become a prominent tool in many of my music videos (see Examples).
 
@@ -15,20 +15,51 @@ Moreover, I developed this library as a personal alternative to music video maki
 
 
 ## Features
-- **Traditional and dynamic sprites** – Animate sprites by using traditional “start-to-end” or “rate-based” commands
-
-- **Shorthand command notation** – Simplify code by using shorthand commands as described in the osu! wiki
-
-- **Modular file exporting** - Save storyboards as binary files to reuse in more complex projects
-
-- **OOP benefits** – Expand library classes to create customizable or specialized sprite commands and animations
+<ul>
+    <li><b>Traditional and dynamic sprites</b> – Animate sprites by using traditional “start-to-end” or “rate-based” commands</li>
+    <li><b>Shorthand command notation</b> – Simplify code by using shorthand commands as described in the osu! wiki</li>
+    <li><b>Modular file exporting</b> - Save storyboards as binary files to reuse in more complex projects</li>
+    <li><b>OOP benefits</b> – Expand library classes to create customizable or specialized sprite commands and animations</li>
+</ul>
 
 
 ## Installation
+### Dependencies
 TBD
 
-## Examples
+### Installing the library
 TBD
+
+### Installing example projects
+<ol>
+    <li><p>The <code>projects</code> folder contains example projects that demonstrate the various uses and functionalities of <i>osbjava</i>. Each project contains:</p>
+    <ul>
+        <li><p>A <code>beatmap</code> folder, which contains the beatmap and storyboard</p>
+        <li><p>A <code>bin</code> folder, which contains binary data of the storyboard's segments</p>
+        <li><p>Java classes that are used to generate the storyboard's segments</p>
+    </ul>
+    <p></p>
+    <li><p>To view the storyboard:</p>
+    <ul>
+        <li><p><b>osu! stable:</b> Copy the <code>beatmap</code> folder into your local directory <code>C:\Users\&lt;username&gt;\AppData\Local\osu!\Songs</code>.</p>
+        <li><p><b>osu! lazer:</b> Archive the <code>beatmap</code> folder into a <code>.zip</code> file and rename the extension to <code>.osz</code>. Open the file using osu! lazer to automatically import the beatmap.</p>
+    </ul>
+    <p></p>
+    <li><p>To view only a specific segment of the storyboard:</p>
+    <ol type="i">
+        <li><p>Run the corresponding Java class. This will rebuild and export a new <code>.osb</code> file for the specified segment.</p>
+        <li><p>Replace the existing <code>.osb</code> file in the <code>beatmaps</code> folder using the terminal prompts.</p>
+        <li><p>Repeat (2) to view the storyboard.</p>
+    </ol>
+</ol>
+
+
+## Examples
+<ul>
+    <li><a href="https://youtu.be/i8Ne2efT0AA">empty town</a> – TBD</li>
+    <li><a href="https://youtu.be/KmEN1wlQY-U">tetration</a> – TBD</li>
+</ul>
+
 
 ## Tutorials
 TBD
