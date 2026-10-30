@@ -9,7 +9,7 @@
 
 I originally developed this library in 2024 as a way to overcome limitations of the current storyboarding syntax. Storyboard sprites operate on a “start-to-end” system, which makes it difficult to create complex visuals such as particle generation and beat flashing. *osbjava* aims to solve this by introducing **dynamic sprites** that instead operate on a “rate-based” system, which **keeps track of sprite parameters and velocities over time**.
 
-I also developed this library as a personal alternative to music video making. have always wanted to accompany my music videos with more engaging “synesthetic” visuals. However, I have lacked access or experience in more sophisticated software such as Adobe After Effects or Blender. *osbjava* has since become a prominent tool in many of my music videos (see Examples).
+I also developed this library as a personal alternative to music video making. I have always wanted to accompany my music videos with more engaging “synesthetic” visuals. However, I have lacked access or experience in more sophisticated software such as Adobe After Effects or Blender. *osbjava* has since become a prominent tool in many of my music videos (see Examples).
 
 *osbjava* is inspired by other storyboard programming tools such as [SGL](https://osu.ppy.sh/community/forums/topics/378938?n=1) (now defunct) and [storybrew](https://github.com/Damnae/storybrew).
 
